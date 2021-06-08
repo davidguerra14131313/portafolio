@@ -1,0 +1,61 @@
+@import 'header';
+@import 'main';
+@import 'footer';
+
+*{
+    margin: 0;
+    padding: 0; 
+    color:var(--color-white);
+    box-sizing: border-box;
+}
+body
+{
+    font-size: 15px;
+    display: grid;
+    grid-template-rows: 3fr;
+    grid-template-columns: auto auto  auto;
+    width: 100%;
+}
+
+:root
+{
+    --gradient-linear-one:rgb(145, 153, 144,1);
+    --gradient-linear-second:rgb(78, 105, 87,0);
+    --margin-left-right-:0em 4.5em;
+   /* --margin-total-for-container-menu:2.5em 0em 0em 0em;*/
+    --margin-top: 1.5em;
+    --margin-botton: 1.5em;
+    --margin-top-botton:1.5em 0em 1.5em 0em;
+    --width-height-total:100%;
+    --font-family-parrafo: 'KoHo', sans-serif;
+    --font-family:'Amatic SC', 'cursive','Goblin One', 'cursive';
+    --width-total:100%;
+    --height-total:100%;
+    --padding-container-menu-:4em;
+    --margin-container-total-:4em 8em 4em 8em;
+    --margin-container-total-laptop-:8em 4em 0em 4em;
+    --margin-container-total-tablet-:3em 0.9em 0em 0.9em;
+    --margin-container-total-smartphone-: 1.8em 0.3em 0em 0.3em;
+    --margin-top-section-container-service-smartphone-: 1.8em;
+    --margin-top-section-container-service-tablet-:3em;
+    --margin-top-section-container-service-laptop-:8em;
+    --margin-top-container-footer-smartphone-: 1.8em;
+    --margin-top-container-footer-tablet-:3em;
+    --margin-top-container-footer-laptop-:8em;
+    
+
+    --border-boxshadow-section:5px 5px 2px  #3A506B; 
+    --color-white:white;
+    --color-wheat:rgb(207, 183, 138);
+    --color-black:black;
+
+    --color-cadet-blue:#599797;
+    --color-mint-cream-:#EDF4ED;
+    --color-oxford-blue:#0B132B;
+    --color-purpureus:#A14DA0;
+    --color-independence-:#3A506B;
+    
+    --color-border-icon:#bda06c;
+    --color-container-:#F5F4EE;
+
+}

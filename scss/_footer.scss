@@ -1,0 +1,87 @@
+$breakpoint-laptop:1200px;
+$breakpoint-tablet:790px;
+$breakpoint-smartphone:480px;
+.footer
+{   
+    margin-top: var(--margin-top-container-footer-laptop-);
+    grid-column: 1/4;
+    height: auto;
+    background-color:#0B132B;
+}
+.container-footer
+{
+   margin: var(--margin-container-total-);
+   display: flex;
+   gap: 100px;
+   justify-content: center;
+}
+
+.container-footer__containt 
+{
+    display: flex;
+    align-items: center;
+}
+
+.containt--p
+{
+    margin-left: 0.5em;
+    font-weight: medium;
+}
+
+.second-container-footer
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.second-container-footer
+{
+}
+@media screen and (max-width:$breakpoint-laptop){
+
+.container-footer
+{
+    margin: 2.2em;
+}
+}
+@media screen and (max-width:$breakpoint-tablet)
+{
+.footer
+{
+    margin-top: var(--margin-top-container-footer-tablet-);
+}
+.container-footer
+{
+    margin: 1.6em;
+}
+.first-container-footer
+{
+    font-size: 20px;
+}
+.containt--p
+{
+    margin-left: 0.5em;
+    font-size: 11px;
+    font-weight: medium;
+}
+
+
+}
+
+@media screen and (max-width:$breakpoint-smartphone)
+{
+.footer
+{   
+    margin-top: var(--margin-top-container-footer-smartphone-);
+}
+.container-footer
+{
+    margin: 1em;
+}
+
+.containt--p
+{
+    font-size: 9px ;
+}
+}
